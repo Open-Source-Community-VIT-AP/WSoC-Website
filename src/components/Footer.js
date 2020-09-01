@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join us for an Adventure this Winter!
+          Join us on an adventure this Winter!
         </p>
         <p className="footer-subscription-text">
           An initiative by Open Source Community
