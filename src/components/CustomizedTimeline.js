@@ -145,7 +145,7 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-                First Phase Evaluation
+                Evaluation
               </Typography>
               <Typography>
                 Candidates will be evaluated in two phases on various metrics
