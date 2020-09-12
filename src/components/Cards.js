@@ -11,14 +11,14 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/image1.png"
-              text="Project 1: Details to be uploaded soon. Check out this section by mid-September for more details."
+              text="Project 1: Details to be uploaded soon. Check out this section by October for more details."
               label="Level: Easy"
               path="/projects"
             />
             <CardItem
               src="images/image2.png"
-              text="Project 2: Details to be uploaded soon. Check out this section by mid-September for more details."
-              label="Level: Moderate"
+              text="Project 2: Details to be uploaded soon. Check out this section by October for more details."
+              label="Level: Easy"
               path="/projects"
             />
           </ul>
