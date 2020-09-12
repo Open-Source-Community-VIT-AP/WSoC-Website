@@ -50,9 +50,9 @@ export default function Register() {
             </strong>
           </p>
           <p>
-            <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
+            {/* <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
               <Button variant="primary">Proceed</Button>
-            </a>
+            </a> */}
           </p>
         </Jumbotron>
       </div>
