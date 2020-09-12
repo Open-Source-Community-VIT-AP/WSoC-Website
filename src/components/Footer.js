@@ -30,13 +30,9 @@ function Footer() {
           <div class="footer-link-items">
             <h2>About Us</h2>
             <Link to="/register">Register</Link>
-            <a href="https://google.com" target="_blank">
+            <a href="https://oscvitap.co.in/" target="_blank">
               Open Source Community
             </a>
-          </div>
-          <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
