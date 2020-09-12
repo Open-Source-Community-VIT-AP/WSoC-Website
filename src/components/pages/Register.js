@@ -44,10 +44,7 @@ export default function Register() {
         </ListGroup>
         <Jumbotron>
           <p>
-            <strong>
-              #Alert: Please read through the instructions above carefully
-              before clicking on the Proceed Button.
-            </strong>
+            <strong>Registration will be open soon!</strong>
           </p>
           <p>
             {/* <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
