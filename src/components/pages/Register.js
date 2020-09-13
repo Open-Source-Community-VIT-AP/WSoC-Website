@@ -37,6 +37,9 @@ export default function Register() {
             <b>GitHub ID is mandatory.</b> Please create one before proceeding,
             if you don't have one.
           </ListGroup.Item>
+  <ListGroup.Item>
+            Once you submit the form, you will receive an e-mail with the further steps within the next 48 hours of submission.
+          </ListGroup.Item>
           <ListGroup.Item>
             If you face any issues during the registration process, kindly write
             to: <b>osc@vitap.ac.in</b>
