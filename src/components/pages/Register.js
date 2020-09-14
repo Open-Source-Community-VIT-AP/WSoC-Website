@@ -47,7 +47,7 @@ export default function Register() {
         </ListGroup>
         <Jumbotron>
           <p>
-            <strong>Registrations will begin starting 10:00 AM IST, 15th September, 2020</strong>
+            <strong>Registrations will begin starting 06:00 PM IST, 14th September, 2020</strong>
           </p>
           <p>
             {/* <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
