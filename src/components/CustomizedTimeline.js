@@ -98,7 +98,7 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-                Results
+                Shortlist Announcement
               </Typography>
               <Typography>
                 Shortlisted students will be intimated regarding the further
