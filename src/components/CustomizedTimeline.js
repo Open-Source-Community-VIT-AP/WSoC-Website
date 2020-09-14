@@ -39,7 +39,7 @@ export default function CustomizedTimeline() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography variant="body2" className="date-text">
-              15th September, 2020
+              14th September, 2020
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -54,7 +54,7 @@ export default function CustomizedTimeline() {
                 Applications Open
               </Typography>
               <Typography>
-                Registration Begins at 10:00 AM IST on 15th September, 2020.
+                Registration Begins at 06:00 PM IST on 14th September, 2020.
               </Typography>
             </Paper>
           </TimelineContent>
