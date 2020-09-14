@@ -11,7 +11,7 @@ function Footer() {
           Join us on an adventure this Winter!
         </p>
         <p className="footer-subscription-text">
-          An initiative by Open Source Community
+          An initiative by Open Source Community: VIT-AP
         </p>
         {/* <div className="input-areas">
           <form>
@@ -67,7 +67,7 @@ function Footer() {
               <i class="fas fa-code-branch" />
             </Link>
           </div>
-          <small class="website-rights">Open Source Community © 2020</small>
+          <small class="website-rights">Open Source Community: VIT-AP © 2020</small>
         </div>
       </section>
     </div>
