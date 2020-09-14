@@ -47,12 +47,12 @@ export default function Register() {
         </ListGroup>
         <Jumbotron>
           <p>
-            <strong>Registrations will begin starting 06:00 PM IST, 14th September, 2020</strong>
+            <strong>#Alert: Please make sure that you read the above guidelines before proceeding and enter correct details in the form.</strong>
           </p>
           <p>
-            {/* <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
+            { <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
               <Button variant="primary">Proceed</Button>
-            </a> */}
+            </a>}
           </p>
         </Jumbotron>
       </div>
