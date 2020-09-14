@@ -4,6 +4,8 @@ import HeroSection from "../HeroSection";
 import Cards from "../Cards";
 import Footer from "../Footer";
 import CustomizedTimeline from "../CustomizedTimeline";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Sponsor from "../Sponsor";
 
 function Home() {
   return (
@@ -11,6 +13,7 @@ function Home() {
       <HeroSection />
       <Cards />
       <CustomizedTimeline />
+      <Sponsor />
       <Footer />
     </>
   );
