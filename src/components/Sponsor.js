@@ -8,7 +8,9 @@ function Sponsor() {
       <h1>Sponsors</h1>
       <div className="cards__container">
         <div className="logo_wrapper">
-          <img src={GMCLogo}></img>
+          <a href="https://givemycertificate.com/" target="_blank">
+            <img src={GMCLogo}></img>
+          </a>
         </div>
       </div>
     </div>
