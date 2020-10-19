@@ -1,7 +1,10 @@
 import React from "react";
 import "./Cards.css";
+import CBLogo from "../assets/images/coding-blocks-logo.png";
 import GMCLogo from "../assets/images/GMC_logo.png";
-import CBLogo from "../assets/images/CBLogo.png";
+
+import BalsamiqLogo from "../assets/images/balsamiq-logo-noborder-screen.png";
+
 
 function Sponsor() {
   return (
@@ -13,11 +16,16 @@ function Sponsor() {
             <img src={GMCLogo}></img>
           </a>
         </div>
+    <div className="logo_wrapper">
+          <a href="https://balsamiq.com/" target="_blank">
+            <img src={BalsamiqLogo}></img>
+          </a>
+        </div>
       </div>
       <div className="cards__container">
         <div className="logo_wrapper">
           <a href="https://codingblocks.com/" target="_blank">
-            <img src={CBLogo} height="75"></img>
+            <img src={CBLogo} height="80"></img>
           </a>
         </div>
       </div>

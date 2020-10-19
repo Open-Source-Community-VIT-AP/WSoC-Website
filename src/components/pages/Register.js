@@ -47,12 +47,7 @@ export default function Register() {
         </ListGroup>
         <Jumbotron>
           <p>
-            <strong>#Alert: Please make sure that you read the above guidelines before proceeding and enter correct details in the form.</strong>
-          </p>
-          <p>
-            { <a href="https://forms.gle/CbBgpbzxTyhv6q1JA" target="_blank">
-              <Button variant="primary">Proceed</Button>
-            </a>}
+            <strong>Thank you for your interest. Registration has been closed.</strong>
           </p>
         </Jumbotron>
       </div>
