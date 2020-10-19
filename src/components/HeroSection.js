@@ -7,15 +7,15 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video3.mp4" autoPlay loop muted />
-      <h1>Winter Is Coming</h1>
-      <p>Join Us for our first Winter Season of Code!</p>
+      <h1>Winter Is Almost Here!</h1>
+      <p>Click below for Phase 1 Results</p>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          REGISTER
+          Accepted List for WSoC 2020
         </Button>
       </div>
     </div>
