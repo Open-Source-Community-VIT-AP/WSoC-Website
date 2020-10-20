@@ -2,7 +2,6 @@ import React from "react";
 import "./Cards.css";
 import CBLogo from "../assets/images/coding-blocks-logo.png";
 import GMCLogo from "../assets/images/GMC_logo.png";
-
 import BalsamiqLogo from "../assets/images/balsamiq-logo-noborder-screen.png";
 
 
