@@ -34,6 +34,7 @@ export default function Results() {
             </p>{" "}
             <p>18BCD7072</p>
           </ListGroup.Item>
+  <ListGroup.Item>
             <p>
               <strong>Susmita Pal</strong>
             </p>{" "}
