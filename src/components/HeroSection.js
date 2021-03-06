@@ -6,9 +6,9 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video3.mp4" autoPlay loop muted />
-      <h1>Winter Is Almost Here!</h1>
-      <p>Click below for Phase 1 Results</p>
+      <video src="/videos/video2.mp4" autoPlay loop muted />
+      <h1>Winter Is Here!</h1>
+      <p>Program begins on 4th December</p>
       <div className="hero-btns">
         <Button
           className="btns"
