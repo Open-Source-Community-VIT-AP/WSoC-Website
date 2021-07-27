@@ -110,7 +110,7 @@ function HeroSection() {
             animate='visible'
             transition={{ duration: 1 }}
           >
-            01.10.2021
+            01.09.2021
           </motion.p>
           <Button
             whileHover={{ scale: 1.05 }}
