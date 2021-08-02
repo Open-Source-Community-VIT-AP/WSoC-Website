@@ -15,9 +15,7 @@ function Sidebar({isOpen, toggle}) {
           <SidebarLink to="archive" onClick={toggle} >Archive</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarBtn href = "#">
-              Register
-          </SidebarBtn>
+          <SidebarBtn to="register"  onClick={toggle} >Register</SidebarBtn>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

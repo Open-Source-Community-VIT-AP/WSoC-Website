@@ -13,16 +13,22 @@ const GlobalCss = withStyles({
     '.MuiTimelineOppositeContent-root': {
       flex: 'none',
       marginRight:'0',
+      width: '140px',
       paddingLeft: '0',
+      textAlign: 'left',
+      
     },
     '.MuiTimelineContent-root': {
       flex: '1',
       maxWidth: '570px',
       marginBottom: '40px',
-      padding:'0 17px',
+      padding:'0 15px',
     },
     '.MuiTypography-root': {
       fontFamily: 'Montserrat',
+    },
+    '.MuiTimeline-root': {
+      padding: '0',
     },
   },
 })(() => null);
@@ -34,7 +40,7 @@ function MuiTimeline() {
     <GlobalCss />
         <TimelineItem>
           <TimelineOppositeContent >
-            <Typography color="textSecondary">15th August</Typography>
+            <Typography color="textSecondary">15<sup>th</sup> August</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -42,14 +48,14 @@ function MuiTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="h1">
-              Amet minim 
+              Applications Open
             </Typography>
-            <Typography>mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</Typography>
+            <Typography>Test Repositories are made public and shortlisting process begins.</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent >
-            <Typography color="textSecondary">15th August</Typography>
+            <Typography color="textSecondary">31<sup>st</sup> August</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -57,14 +63,14 @@ function MuiTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="h1">
-              Amet minim 
+              Shortlist Announcement
             </Typography>
-            <Typography>mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</Typography>
+            <Typography>Results of shortlisting process are announced & students will be intimated regarding the further process.</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent >
-            <Typography color="textSecondary">15th August</Typography>
+            <Typography color="textSecondary">1<sup>st</sup> September</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -72,14 +78,14 @@ function MuiTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="h1">
-              Amet minim 
+              Program Begins
             </Typography>
-            <Typography>mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</Typography>
+            <Typography>Code session of WSoC starts & students work on their Winter Season of Code 2021 projects</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent >
-            <Typography color="textSecondary">15th August</Typography>
+            <Typography color="textSecondary">Oct-Nov</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -87,9 +93,39 @@ function MuiTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="h1">
-              Amet minim 
+              Evaluation
             </Typography>
-            <Typography>mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</Typography>
+            <Typography>Two phases of evaluation in order to check into the progress of the project, and ensure that there are no issues in the building of the project successfully.</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent >
+            <Typography color="textSecondary">15<sup>th</sup> December</Typography>
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant="h6" component="h1">
+              Final Project Submission
+            </Typography>
+            <Typography> Projects are submitted, and evaluated by a panel of experienced judges who evaluate the project based on a number of criteria.  </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent >
+            <Typography color="textSecondary">31<sup>st</sup> December</Typography>
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot />
+            
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant="h6" component="h1">
+              Publishing of the Results
+            </Typography>
+            <Typography> The season of code comes to an end, with the best project, and team announced to the public.</Typography>
           </TimelineContent>
         </TimelineItem>
         

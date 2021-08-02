@@ -42,7 +42,7 @@ function Navbar({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink href="#">Register</NavBtnLink>
+            <NavBtnLink to="register" smooth={true} spy={true} exact="true" offset={-60} >Register</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

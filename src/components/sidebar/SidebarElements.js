@@ -70,7 +70,7 @@ export const SideBtnWrap= styled.div`
     justify-content: center;
 `
 
-export const SidebarBtn = styled.a`
+export const SidebarBtn = styled(LinkS)`
     border-radius: 5px;
     background: #41E5FF;
     white-space: nowrap;

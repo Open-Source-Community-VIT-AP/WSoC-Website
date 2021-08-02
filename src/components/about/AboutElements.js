@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-    min-height: 100vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     max-width: 1400px;
@@ -37,7 +37,7 @@ export const Para = styled.p`
     max-width: 1165px;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 0.02em;
 
     @media screen and (max-width: 768px) {

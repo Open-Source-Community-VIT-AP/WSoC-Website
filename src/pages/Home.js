@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer';
 import Hero from '../components/heroSection/Hero';
 import Navbar from '../components/navbar/Navbar'
 import Projects from '../components/projects/Projects';
+import Register from '../components/register/Register';
 import Sidebar from '../components/sidebar/Sidebar';
 import Timeline from '../components/timeline/Timeline';
 
@@ -24,6 +25,7 @@ function Home() {
             <Timeline/>
             <Projects/>
             <Archive/>
+            <Register/>
             <Footer/>
         </div>
     )
