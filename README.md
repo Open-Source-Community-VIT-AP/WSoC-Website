@@ -1,1 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07093d43-ef43-443b-a630-b9a16dd3f081/deploy-status)](https://app.netlify.com/sites/wsoc-test/deploys)
+## USE THIS BRANCH TO RESET WSOC WEBSITE TO IT'S INITIAL STAGE
+
+![](https://i.ibb.co/JKsmZyp/Capture.png)
