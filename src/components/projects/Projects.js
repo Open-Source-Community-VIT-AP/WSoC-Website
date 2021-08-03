@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import img from '../../assets/projectimg1.png'
 
-import { ProjectContainer, ProjectInner, ProjectsHeading} from './ProjectElements'
+import { ProjectContainer, ProjectInner , BigText , ProjectsHeading} from './ProjectElements'
 
 function Projects() {
     return (
@@ -12,7 +12,7 @@ function Projects() {
                   Projects
               </ProjectsHeading>
             <ProjectInner>
-                <ProjectCard 
+                {/* <ProjectCard 
                     src={img}
                     text="Project 1: Productivity Manager"
                     label="WSOC2001"
@@ -47,7 +47,9 @@ function Projects() {
                     text="Project 1: Productivity Manager"
                     label="WSOC2001"
                     path="#"
-                />
+                /> */}
+
+                <BigText>Coming Soon</BigText>
             </ProjectInner>    
           </ProjectContainer>  
         </>

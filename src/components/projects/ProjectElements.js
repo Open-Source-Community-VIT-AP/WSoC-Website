@@ -11,6 +11,20 @@ export const ProjectCardContainer = styled.div`
     margin-bottom: 3rem;
     
 `
+export const BigText = styled.h1`
+    max-width: 805px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    @media screen and (max-width: 768px) {
+        font-size: 50px;
+    } 
+
+`
 
 export const ProjectCardLink = styled.a`
   display: flex;
