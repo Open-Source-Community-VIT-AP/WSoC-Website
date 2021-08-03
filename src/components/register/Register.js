@@ -17,7 +17,7 @@ const RegisterContainer = styled.div`
 function Register() {
     return (
         <RegisterContainer id ="register">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQdDYkoI7i5sGavDBeBmePGTsavMdvl3grAFPiynTSRwG9CQ/viewform?embedded=true" width="640" height="1182" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtdKMLi9nQugUGedzFTJ0-SbJU16BBpo4_zF9MWa7xRFVc4Q/viewform?embedded=true" width="640" height="1182" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </RegisterContainer>
     )
 }
