@@ -8,6 +8,7 @@ import { MdExpandMore } from "react-icons/md";
 import { ProjectInner } from '../projects/ProjectElements';
 import ProjectCard from '../projects/ProjectCard';
 import img from '../../assets/projectimg1.png'
+import img2 from '../../assets/projectimg2.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -39,16 +40,16 @@ function TwentyTwenty() {
 
           <ProjectInner>
               <ProjectCard 
-                    src={img}
+                    src={img2}
                     text="Project 1: Productivity Manager"
                     label="WSOC2001"
-                    path="#"
+                    path="https://github.com/Open-Source-Community-VIT-AP/Productivity-tracker"
                 />
               <ProjectCard 
                     src={img}
-                    text="Project 1: Productivity Manager"
-                    label="WSOC2001"
-                    path="#"
+                    text="Project 2: Event Hub"
+                    label="WSOC2002"
+                    path="https://github.com/Open-Source-Community-VIT-AP/oschub"
                 />
           </ProjectInner>
         </AccordionDetails>
