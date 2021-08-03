@@ -1,17 +1,14 @@
-import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/pages/HomePage/Home";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/Home";
+import Snowfall from "react-snowfall";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Switch>
-          <Route path="/" component={Home} />
-        </Switch>
-      </Router>
-    </>
+    <Router>
+      <Snowfall color="rgba(0, 163, 255, 0.6)" snowflakeCount={250} />
+      <Home/>
+    </Router>
   );
 }
 
