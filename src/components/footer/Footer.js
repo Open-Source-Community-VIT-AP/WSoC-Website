@@ -28,21 +28,20 @@ function Footer() {
             <FooterClubs>
               <ClubName>Open Source Comunity: VIT-AP</ClubName>
               <SocialIcons>
-                <FooterLink>
+                <FooterLink target="_blank" href ="https://www.instagram.com/osc.vitap/">
                   <FaInstagram />
                 </FooterLink>
-                <FooterLink> <FaFacebook /> </FooterLink>
-                <FooterLink> <FaYoutube /> </FooterLink>
-                <FooterLink> <FaLinkedinIn /> </FooterLink>
+                <FooterLink target="_blank" href ="https://www.facebook.com/vitaposc/"> <FaFacebook /> </FooterLink>
+                <FooterLink target="_blank" href ="https://www.youtube.com/channel/UCL7e5F8GJIkLDKiu5pv2NAw"> <FaYoutube /> </FooterLink>
+                <FooterLink target="_blank" href ="https://www.linkedin.com/company/oscvitap/"> <FaLinkedinIn /> </FooterLink>
               </SocialIcons>
             </FooterClubs>
             <FooterClubs>
               <ClubName>Developer Student Clubs: VIT-AP</ClubName>
               <SocialIcons>
-                 <FooterLink> <FaInstagram /> </FooterLink>
-                 <FooterLink> <FaFacebook /> </FooterLink>
-                 <FooterLink> <FaYoutube /> </FooterLink>
-                 <FooterLink> <FaLinkedinIn /> </FooterLink>
+                 <FooterLink target="_blank" href="https://www.instagram.com/dscvitap/"> <FaInstagram /> </FooterLink>
+                 <FooterLink target="_blank" href ="https://www.youtube.com/channel/UC9cmRVxo5zegeCzBCMlcBcg"> <FaYoutube /> </FooterLink>
+                 <FooterLink target="_blank" href="https://www.linkedin.com/company/dscvitap/"> <FaLinkedinIn /> </FooterLink>
               </SocialIcons>
             </FooterClubs>
           </FooterBottom>
