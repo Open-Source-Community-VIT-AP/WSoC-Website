@@ -31,7 +31,7 @@ function Projects() {
                 />
                 <ProjectCard 
                     src={img2103}
-                    text="Project 3 : Decentralized Identity Management Platform"
+                    text="Project 3 : Identity "
                     label="WSOC2103"
                     path="#"
                 />
