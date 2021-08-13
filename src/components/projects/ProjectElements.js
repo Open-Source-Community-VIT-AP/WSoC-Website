@@ -70,9 +70,8 @@ export const ProjectCardImg = styled.img`
   bottom: 0;
   left: 0;
   display: block;
-  width: 100%;
   max-width: 100%;
-  height: 100%;
+  margin: 0 auto;
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
