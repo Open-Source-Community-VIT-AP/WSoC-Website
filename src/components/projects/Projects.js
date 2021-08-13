@@ -43,7 +43,7 @@ function Projects() {
                 />
                 <ProjectCard 
                     src={img2105}
-                    text="Project 1: Précis"
+                    text="Project 5: Précis"
                     label="WSOC2105"
                     path="#"
                 />
