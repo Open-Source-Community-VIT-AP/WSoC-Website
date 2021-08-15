@@ -21,31 +21,31 @@ function Projects() {
                     src={img2101}
                     text="Project 1 : ClubSpot"
                     label="WSOC2101"
-                    path="#"
+                    path="https://github.com/WSoC-VITAP/WSoC2101-TestRepo"
                 />
                 <ProjectCard 
                     src={img2102}
                     text="Project 2 : SureNet "
                     label="WSOC2102"
-                    path="#"
+                    path="https://github.com/WSoC-VITAP/WSoC2102-TestRepo"
                 />
                 <ProjectCard 
                     src={img2103}
                     text="Project 3 : Decentralized Identity Management Platform"
                     label="WSOC2103"
-                    path="#"
+                    path="https://github.com/WSoC-VITAP/WSoC2103-TestRepo"
                 />
                 <ProjectCard 
                     src={img2104}
                     text="Project 4 : SOUL"
                     label="WSOC2104"
-                    path="#"
+                    path="https://github.com/WSoC-VITAP/WSoC2104-TestRepo"
                 />
                 <ProjectCard 
                     src={img2105}
                     text="Project 1: Précis"
                     label="WSOC2105"
-                    path="#"
+                    path="https://github.com/WSoC-VITAP/WSoC2105-TestRepo"
                 />
                 
 
