@@ -9,7 +9,6 @@ export const ProjectCardContainer = styled.div`
     border-radius: 10px;
     /* width: 275px; */
     margin-bottom: 3rem;
-    
 `
 export const BigText = styled.h1`
     max-width: 805px;
@@ -30,13 +29,18 @@ export const ProjectCardLink = styled.a`
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  transition: all 0.4s ease-in-out;
   width: 275px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+}
   @media screen and (max-width: 350px) {
         width: 200px;
   }
@@ -75,9 +79,9 @@ export const ProjectCardImg = styled.img`
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
-  &:hover {
+  /* &:hover {
   transform: scale(1.1);
-}
+} */
 `
 
 export const ProjectCardInfo = styled.div`
