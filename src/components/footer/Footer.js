@@ -35,6 +35,8 @@ function Footer() {
                 <FooterLink target="_blank" href ="https://www.linkedin.com/company/oscvitap/"> <FaLinkedinIn /> </FooterLink>
               </SocialIcons>
             </FooterClubs>
+
+            <FooterClubs>
             <ClubName> Women in Open Source chapter: VIT-AP</ClubName>
               <SocialIcons>
                 <FooterLink target="_blank" href ="https://www.instagram.com/wios_vitap/?utm_medium=copy_link/">
@@ -44,8 +46,7 @@ function Footer() {
                 <FooterLink target="_blank" href ="https://www.linkedin.com/company/women-in-open-source-vit-ap/"> <FaLinkedinIn /> </FooterLink>
               </SocialIcons>
             </FooterClubs>
-            <FooterClubs>
-              
+                          
             <FooterClubs>
               <ClubName>Developer Student Clubs: VIT-AP</ClubName>
               <SocialIcons>
