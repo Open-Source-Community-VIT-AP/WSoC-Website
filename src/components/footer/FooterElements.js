@@ -43,7 +43,6 @@ export const FooterClubs = styled.div`
     flex-direction: column;
     margin: auto;
     height: 150px;
-    max-width: 310px;
 
 `
 
