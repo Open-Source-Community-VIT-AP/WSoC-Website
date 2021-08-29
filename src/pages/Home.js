@@ -25,7 +25,7 @@ function Home() {
             <Timeline/>
             <Projects/>
             <Archive/>
-            <Register/>
+            
             <Footer/>
         </div>
     )
