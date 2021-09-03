@@ -23,30 +23,20 @@ function Projects() {
                     label="WSOC2101"
                     path="https://github.com/WSoC-VITAP/WSoC2101-TestRepo"
                 />
-                <ProjectCard 
-                    src={img2102}
-                    text="Project 2 : SureNet "
-                    label="WSOC2102"
-                    path="https://github.com/WSoC-VITAP/WSoC2102-TestRepo"
-                />
+                
                 <ProjectCard 
                     src={img2103}
-                    text="Project 3 : Identity "
-                    label="WSOC2103"
+                    text="Project 2 : Identity "
+                    label="WSOC2102"
                     path="https://github.com/WSoC-VITAP/WSoC2103-TestRepo"
                 />
                 <ProjectCard 
                     src={img2104}
-                    text="Project 4 : SOUL"
-                    label="WSOC2104"
+                    text="Project 3 : SOUL"
+                    label="WSOC2103"
                     path="https://github.com/WSoC-VITAP/WSoC2104-TestRepo"
                 />
-                <ProjectCard 
-                    src={img2105}
-                    text="Project 5: Précis"
-                    label="WSOC2105"
-                    path="https://github.com/WSoC-VITAP/WSoC2105-TestRepo"
-                />
+                
                 
 
                 {/* <BigText>Coming Soon</BigText> */}

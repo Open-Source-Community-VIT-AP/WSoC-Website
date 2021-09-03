@@ -1,23 +1,59 @@
 import React from 'react'
 import styled from 'styled-components'
+import Shortlist from './Shortlist'
 
 const RegisterContainer = styled.div`
+    min-height: 50vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
     max-width: 1400px;
     margin: auto;
     padding: 0 24px;
-    border: none;
-    outline: none;
 `
+
+const ShortlistHeading = styled.h2`
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+`
+const Para = styled.p`
+    max-width: 1165px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+
+    @media screen and (max-width: 768px) {
+        font-size: 17px;
+    }
+`
+
 
 function Register() {
     return (
-        <RegisterContainer id ="register">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtdKMLi9nQugUGedzFTJ0-SbJU16BBpo4_zF9MWa7xRFVc4Q/viewform?embedded=true" width="640" height="1182" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <RegisterContainer id ="shortlist">
+            <ShortlistHeading>Shortlist</ShortlistHeading>
+            {/* <Shortlist/> */}
+            <Para>
+                Shortlisted candidates will be anounced soon
+            </Para>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </RegisterContainer>
     )
 }

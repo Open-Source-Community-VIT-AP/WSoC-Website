@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const ArchiveContainer = styled.div`
-    min-height: 80vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     max-width: 1400px;
-    /* justify-content: center; */
     margin: auto;
     padding: 0 24px;
+    margin-bottom: 50px;
     
 `
 

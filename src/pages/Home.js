@@ -25,6 +25,9 @@ function Home() {
             <Timeline/>
             <Projects/>
             <Archive/>
+            <Register/>   
+
+            {/* TODO: add register to display shortlist */}
             
             <Footer/>
         </div>

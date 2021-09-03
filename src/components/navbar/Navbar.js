@@ -42,7 +42,7 @@ function Navbar({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="register" smooth={true} spy={true} exact="true" offset={-60} >Register</NavBtnLink>
+            <NavBtnLink to="shortlist" smooth={true} spy={true} exact="true" offset={-60} >Shortlist</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
