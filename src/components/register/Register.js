@@ -45,7 +45,7 @@ function Register() {
             <ShortlistHeading>Shortlist</ShortlistHeading>
             {/* <Shortlist/> */}
             <Para>
-                Shortlisted candidates will be anounced soon
+            Shortlisted candidates will be announced soon
             </Para>
 
             <br/>
