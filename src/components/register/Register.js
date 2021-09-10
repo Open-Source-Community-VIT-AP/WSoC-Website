@@ -43,10 +43,10 @@ function Register() {
     return (
         <RegisterContainer id ="shortlist">
             <ShortlistHeading>Shortlist</ShortlistHeading>
-            {/* <Shortlist/> */}
-            <Para>
+            <Shortlist/>
+            {/* <Para>
             Shortlisted candidates will be announced soon
-            </Para>
+            </Para> */}
 
             <br/>
             <br/>
