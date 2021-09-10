@@ -42,7 +42,7 @@ const Para = styled.p`
 function Register() {
     return (
         <RegisterContainer id ="shortlist">
-            <ShortlistHeading>Shortlist</ShortlistHeading>
+            <ShortlistHeading>Shortlisted candidates</ShortlistHeading>
             <Shortlist/>
             {/* <Para>
             Shortlisted candidates will be announced soon
