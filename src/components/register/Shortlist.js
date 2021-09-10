@@ -36,13 +36,16 @@ function Shortlist() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Saravan Krishna - 20BCN7013</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Anjali - 19BCE7339</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Shashmit - 20BCB7011</Typography>
+        </AccordionDetails>
+        <AccordionDetails>
+          <Typography>S Kevin - 20BCI7234</Typography>
         </AccordionDetails>
       </Accordion>
 
@@ -57,13 +60,16 @@ function Shortlist() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Aditya Mitra - 20BCR7009</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Anisha Ghosh - 20BCE7091</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Alan Alexander Thomas - 19BCE7588</Typography>
+        </AccordionDetails>
+        <AccordionDetails>
+          <Typography>Meghana Cligani - 19BCN7157</Typography>
         </AccordionDetails>
       </Accordion>
 
@@ -76,13 +82,16 @@ function Shortlist() {
           <Typography className={classes.heading}>SOUL - WSOC2103</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Aayush Anand - 20BCE7393</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Nivas Manduva - 19BCD7012</Typography>
         </AccordionDetails>
         <AccordionDetails>
-          <Typography>Name - Reg.no</Typography>
+          <Typography>Manikanta Bhuvanesh - 19BCD7088</Typography>
+        </AccordionDetails>
+        <AccordionDetails>
+          <Typography>Sriram Bulusu - 19BCE7662</Typography>
         </AccordionDetails>
       </Accordion>
     </div>
