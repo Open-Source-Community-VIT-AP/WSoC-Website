@@ -7,6 +7,7 @@ import Navbar from '../components/navbar/Navbar'
 import Projects from '../components/projects/Projects';
 import Register from '../components/register/Register';
 import Sidebar from '../components/sidebar/Sidebar';
+import Sponsors from '../components/sponsors/Sponsors';
 import Timeline from '../components/timeline/Timeline';
 
 function Home() {
@@ -25,9 +26,8 @@ function Home() {
             <Timeline/>
             <Projects/>
             <Archive/>
-            <Register/>   
-
-            {/* TODO: add register to display shortlist */}
+            <Register/> 
+            <Sponsors/>  
             
             <Footer/>
         </div>

@@ -40,6 +40,9 @@ function Navbar({ toggle }) {
             <NavItem>
               <NavLink to="archive"  smooth={true} spy={true} exact="true" offset={-60} >Archive</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink to="sponsors"  smooth={true} spy={true} exact="true" offset={-60} >Sponsors</NavLink>
+            </NavItem>
           </NavMenu>
           <NavBtn>
             <NavBtnLink to="shortlist" smooth={true} spy={true} exact="true" offset={-60} >Shortlist</NavBtnLink>
