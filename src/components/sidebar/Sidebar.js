@@ -13,9 +13,10 @@ function Sidebar({isOpen, toggle}) {
           <SidebarLink to="projects" onClick={toggle} >Projects</SidebarLink>
           <SidebarLink to="timeline" onClick={toggle} >Timeline</SidebarLink>
           <SidebarLink to="archive" onClick={toggle} >Archive</SidebarLink>
+          <SidebarLink to="sponsors" onClick={toggle} >Sponsors</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarBtn to="register"  onClick={toggle} >Register</SidebarBtn>
+          <SidebarBtn to="shortlist"  onClick={toggle} >Shortlist</SidebarBtn>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
